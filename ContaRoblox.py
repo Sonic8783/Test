@@ -34,6 +34,6 @@ class ContaRoblox:
         print(self.Inventory)
     
     def Extrato(self):
-        print(f"Nome: {self.nickname} | Tix: {self.tix} | Robux: {self.robux} | Conta premium: {self.IsPremium}")
+        print(f"{self.nickname} | Tix: {self.tix} | Robux: {self.robux} | Conta premium: {self.IsPremium}")
     
     
