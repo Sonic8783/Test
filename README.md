@@ -1,6 +1,12 @@
-Roblox Simulator
----
-Roblox simulator é uma paródia do funcionamento do sistema do jogo chamado Roblox, onde é possível:
+# Roblox Simulator
+
+![dashboard fake kkkkkkkkkkkkkkkkk](https://files.catbox.moe/f6bq50.png) 
+
+###### ***\*Imagem meramente ilustrativa***
+
+***
+
+Roblox simulator é uma **paródia** do funcionamento do sistema da plataforma chamada Roblox, onde é possível:
 
 - Criar uma conta
 - Comprar Robux
