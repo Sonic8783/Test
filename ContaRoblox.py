@@ -18,15 +18,15 @@ class ContaRoblox:
     def ComprarRobux(self, valor):
         if valor > 0:
             self.robux += valor
-            print(f"Foi acrescentado {valor} em quantidade de robux.")
-            print("Foi creditado R$ %.2f em seu cartão"% (0.06975*valor))
+            print(f"Foi acrescentado \033[32m{valor}\033[0m em quantidade de robux.")
+            print("Foi creditado \033[32mR$ %.2f\033[0m em seu cartão"% (0.06975*valor))
         else:
             print("Erro na compra.")
     
     def AdicionarTix(self, valor):
         if valor > 0:
             self.tix += valor
-            print(f"Foi acrescentado {self.tix} em quantidade de tickets.")
+            print(f"Foi acrescentado \033[33m{self.tix}\033[0m em quantidade de tickets.")
         else:
             print("Erro na aquisição.")
 
@@ -34,6 +34,9 @@ class ContaRoblox:
         print(self.Inventory)
     
     def Extrato(self):
-        print(f"{self.nickname} | Tix: {self.tix} | Robux: {self.robux} | Conta premium: {self.IsPremium}")
+        if self.IsPremium == True:
+            print(f"{self.nickname} | \033[33mTix: {self.tix}\033[0m | \033[32mRobux (R$): {self.robux}\033[0m | \033[34mConta premium: {self.IsPremium}\033[0m")
+        else:
+            print(f"{self.nickname} | \033[33mTix: {self.tix}\033[0m | \033[32mRobux (R$): {self.robux}\033[0m | \033[31mConta premium: {self.IsPremium}\033[0m")
     
     
