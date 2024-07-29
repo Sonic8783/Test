@@ -17,3 +17,10 @@ Roblox simulator é uma **paródia** do funcionamento do sistema da plataforma c
   - Verificar saldo
   - Adquirir conta premium
   - Ver o nickname da conta
+
+Informações Extras
+---
+```
+Peso do software: 7.00 MB
+Compilado com pyinstaller o arquivo Main.py
+```
